@@ -1,6 +1,7 @@
 # Filmy World
 
-![Filmy World]([path-to-your-screenshot.png](https://github.com/ArmanHlo/Filmy_World_app/blob/master/app/src/main/res/drawable/bazoka.jpg))
+![Filmy World](https://github.com/ArmanHlo/Filmy_World_app/blob/master/app/src/main/res/drawable/bazoka.jpg)
+
 
 ## Overview
 
