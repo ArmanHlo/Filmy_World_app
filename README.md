@@ -9,6 +9,9 @@
   <a href="https://github.com/ArmanHlo/Filmy_World_app/blob/master/p/movies.png">
     <img src="https://github.com/ArmanHlo/Filmy_World_app/blob/master/p/movies.png" alt="Movies" width="200" />
   </a>
+</p>
+
+<p align="center">
   <a href="https://github.com/ArmanHlo/Filmy_World_app/blob/master/p/series.png">
     <img src="https://github.com/ArmanHlo/Filmy_World_app/blob/master/p/series.png" alt="Series" width="200" />
   </a>
