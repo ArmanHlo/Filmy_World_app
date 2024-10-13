@@ -1,23 +1,22 @@
 # Filmy World
 
 <p align="center">
-  <a href="https://github.com/ArmanHlo/Filmy_World_app/blob/master/p/home.png">
+  <a href="https://github.com/ArmanHlo/Filmy_World_app/blob/master/p/home.png" style="margin: 0 10px;">
     <img src="https://github.com/ArmanHlo/Filmy_World_app/blob/master/p/home.png" alt="Home" width="200" style="margin: 0 10px;" />
   </a>
-  <a href="https://github.com/ArmanHlo/Filmy_World_app/blob/master/p/movies.png">
+  <a href="https://github.com/ArmanHlo/Filmy_World_app/blob/master/p/movies.png" style="margin: 0 10px;">
     <img src="https://github.com/ArmanHlo/Filmy_World_app/blob/master/p/movies.png" alt="Movies" width="200" style="margin: 0 10px;" />
   </a>
 </p>
 
 <p align="center">
-  <a href="https://github.com/ArmanHlo/Filmy_World_app/blob/master/p/series.png">
+  <a href="https://github.com/ArmanHlo/Filmy_World_app/blob/master/p/series.png" style="margin: 0 10px;">
     <img src="https://github.com/ArmanHlo/Filmy_World_app/blob/master/p/series.png" alt="Series" width="200" style="margin: 0 10px;" />
   </a>
-  <a href="https://github.com/ArmanHlo/Filmy_World_app/blob/master/p/clicked.png">
+  <a href="https://github.com/ArmanHlo/Filmy_World_app/blob/master/p/clicked.png" style="margin: 0 10px;">
     <img src="https://github.com/ArmanHlo/Filmy_World_app/blob/master/p/clicked.png" alt="Clicked" width="200" style="margin: 0 10px;" />
   </a>
 </p>
-
 
 
 
