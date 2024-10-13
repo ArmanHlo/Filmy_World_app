@@ -1,15 +1,12 @@
 # Filmy World
 
-<p align="center">
+<p align="center"> 
   <a href="https://github.com/ArmanHlo/Filmy_World_app/blob/master/p/home.png">
-    <img src="https://github.com/ArmanHlo/Filmy_World_app/blob/master/p/home.png" alt="Home" width="200" style="margin: 20px;"/>
+    <img src="https://github.com/ArmanHlo/Filmy_World_app/blob/master/p/home.png" alt="Home" width="200" style="margin: 20px;" />
   </a>
   <a href="https://github.com/ArmanHlo/Filmy_World_app/blob/master/p/movies.png">
     <img src="https://github.com/ArmanHlo/Filmy_World_app/blob/master/p/movies.png" alt="Movies" width="200" style="margin: 20px;" />
   </a>
-</p>
-
-<p align="center">
   <a href="https://github.com/ArmanHlo/Filmy_World_app/blob/master/p/series.png">
     <img src="https://github.com/ArmanHlo/Filmy_World_app/blob/master/p/series.png" alt="Series" width="200" style="margin: 20px;" />
   </a>
