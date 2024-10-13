@@ -1,6 +1,23 @@
 # Filmy World
 
-![Filmy World](https://github.com/ArmanHlo/Filmy_World_app/blob/master/app/src/main/res/drawable/bazoka.jpg)
+# Filmy World App
+
+<p align="center">
+  <a href="https://github.com/ArmanHlo/Filmy_World_app/blob/master/p/home.png">
+    <img src="https://github.com/ArmanHlo/Filmy_World_app/blob/master/p/home.png" alt="Home" width="200" />
+  </a>
+  <a href="https://github.com/ArmanHlo/Filmy_World_app/blob/master/p/movies.png">
+    <img src="https://github.com/ArmanHlo/Filmy_World_app/blob/master/p/movies.png" alt="Movies" width="200" />
+  </a>
+  <a href="https://github.com/ArmanHlo/Filmy_World_app/blob/master/p/series.png">
+    <img src="https://github.com/ArmanHlo/Filmy_World_app/blob/master/p/series.png" alt="Series" width="200" />
+  </a>
+  <a href="https://github.com/ArmanHlo/Filmy_World_app/blob/master/p/clicked.png">
+    <img src="https://github.com/ArmanHlo/Filmy_World_app/blob/master/p/clicked.png" alt="Clicked" width="200" />
+  </a>
+</p>
+
+
 
 
 ## Overview
