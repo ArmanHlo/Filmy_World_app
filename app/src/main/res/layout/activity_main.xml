@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <!-- Main content -->
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!-- Toolbar -->
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="51dp"
+            android:background="#1B1A1A"
+            android:title="Home"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:menu="@menu/menu_toolbar"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+
+<!--        <TextView-->
+<!--            android:id="@+id/logo"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--           android:textColor="@color/white"-->
+<!--            android:text="Film World"-->
+<!--            android:textStyle="bold"-->
+<!--            android:paddingStart="10dp"-->
+<!--            android:textSize="30sp"-->
+<!--            android:contentDescription="app_logo"-->
+<!--            android:layout_gravity="start"-->
+<!--            android:padding="8dp"-->
+<!--            tools:ignore="MissingConstraints" />-->
+
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="197dp"
+            android:layout_height="56dp"
+
+            android:layout_gravity="start"
+            android:contentDescription="app_logo"
+            android:padding="0dp"
+
+            android:paddingStart="10dp"
+            android:src="@drawable/film_world_pk"
+            android:textStyle="bold"
+            tools:ignore="MissingConstraints" />
+
+        <!-- FragmentContainerView -->
+        <androidx.fragment.app.FragmentContainerView
+            android:id="@+id/nav_host_fragment"
+            android:name="androidx.navigation.fragment.NavHostFragment"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            app:layout_constraintTop_toBottomOf="@id/toolbar"
+            app:layout_constraintBottom_toTopOf="@id/bnv"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:navGraph="@navigation/nav_graph"
+            app:defaultNavHost="true" />
+
+        <!-- FrameLayout -->
+        <FrameLayout
+            android:id="@+id/frame_layout"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            app:layout_constraintTop_toBottomOf="@id/toolbar"
+            app:layout_constraintBottom_toTopOf="@id/bnv"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent">
+        </FrameLayout>
+
+        <!-- BottomNavigationView -->
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/bnv"
+            android:layout_width="match_parent"
+            android:layout_height="53dp"
+            android:background="#201E1E"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:menu="@menu/bottom_nav"
+            style="@style/BottomNavigationViewStyle"
+            app:itemIconSize="25dp"
+            app:itemTextColor="@color/white" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <!-- Navigation Drawer -->
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/nav_view"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        app:menu="@menu/drawer_menu"
+        app:headerLayout="@layout/nav_header"/>
+
+</androidx.drawerlayout.widget.DrawerLayout>

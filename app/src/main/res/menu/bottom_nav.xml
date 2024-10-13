@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/Home"
+        android:icon="@drawable/web_house_svgrepo_com"
+        android:title="Home" />
+    <item
+        android:id="@+id/Movies"
+        android:icon="@drawable/movie_videos_svgrepo_com"
+        android:title="Movies" />
+    <item
+        android:id="@+id/Series"
+        android:icon="@drawable/movie_recorder_svgrepo_com"
+        android:title="Series" />
+</menu>

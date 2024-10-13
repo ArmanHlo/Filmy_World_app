@@ -1,0 +1,232 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SettingFragment"
+    android:background="@color/black">
+
+    <!-- ViewPager2 for image slider -->
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="204dp"
+        android:layout_gravity="top"
+        android:background="#4CE152"
+         />
+
+    <!-- Dot indicators -->
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tabLayout"
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:background="#EEF4F6"
+        android:layout_gravity="center_horizontal|top"
+        android:layout_marginTop="204dp"
+        app:tabGravity="center"
+        app:tabIndicatorColor="#F63577"
+        app:tabSelectedTextColor="#8159C6"
+        app:tabTextColor="@android:color/darker_gray" />
+
+    <!-- Slide info TextView -->
+    <TextView
+        android:id="@+id/slideInfoTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginBottom="16dp"
+        android:textColor="@android:color/white"
+        android:textSize="16sp"
+        android:padding="8dp"
+        android:background="#0B0B0B" />
+
+    <!-- Container for rows of images with vertical scrolling -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginTop="210dp"
+        android:layout_marginBottom="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <!-- Comedy Category -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:gravity="center"
+                android:text="Comedy"
+                android:textColor="@android:color/white"
+                android:textSize="20sp" />
+
+            <!-- Horizontal ScrollView for Comedy Images -->
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:layout_marginTop="8dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <!-- Example CardView for Comedy Images -->
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="100dp"
+                        android:layout_height="150dp"
+                        android:layout_marginEnd="8dp"
+                        app:cardCornerRadius="12dp"
+                        app:cardElevation="6dp">
+
+                        <ImageView
+                            android:id="@+id/shekharh"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:contentDescription="Comedy Movie Image"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/shekharh" />
+                    </androidx.cardview.widget.CardView>
+
+                    <!-- Repeat CardView blocks for more images -->
+                </LinearLayout>
+            </HorizontalScrollView>
+
+            <!-- Action Category -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:gravity="center"
+                android:text="Action"
+                android:textColor="@android:color/white"
+                android:textSize="20sp" />
+
+            <!-- Horizontal ScrollView for Action Images -->
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:layout_marginTop="8dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <!-- Example CardView for Action Images -->
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="100dp"
+                        android:layout_height="150dp"
+                        android:layout_marginEnd="8dp"
+                        app:cardCornerRadius="12dp"
+                        app:cardElevation="6dp">
+
+                        <ImageView
+                            android:id="@+id/hodna"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:contentDescription="Action Movie Image"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/hodn" />
+                    </androidx.cardview.widget.CardView>
+
+                    <!-- Repeat CardView blocks for more images -->
+                </LinearLayout>
+            </HorizontalScrollView>
+
+            <!-- Crime Category -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:gravity="center"
+                android:text="Crime"
+                android:textColor="@android:color/white"
+                android:textSize="20sp" />
+
+            <!-- Horizontal ScrollView for Crime Images -->
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:layout_marginTop="8dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <!-- Example CardView for Crime Images -->
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="100dp"
+                        android:layout_height="150dp"
+                        android:layout_marginEnd="8dp"
+                        app:cardCornerRadius="12dp"
+                        app:cardElevation="6dp">
+
+                        <ImageView
+                            android:id="@+id/gyarahc"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:contentDescription="Crime Movie Image"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/gyarah" />
+                    </androidx.cardview.widget.CardView>
+
+                    <!-- Repeat CardView blocks for more images -->
+                </LinearLayout>
+            </HorizontalScrollView>
+
+            <!-- Suspense Category -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:gravity="center"
+                android:text="Suspense"
+                android:textColor="@android:color/white"
+                android:textSize="20sp" />
+
+            <!-- Horizontal ScrollView for Suspense Images -->
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:layout_marginTop="8dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <!-- Example CardView for Suspense Images -->
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="100dp"
+                        android:layout_height="150dp"
+                        android:layout_marginEnd="8dp"
+                        app:cardCornerRadius="12dp"
+                        app:cardElevation="6dp">
+
+                        <ImageView
+                            android:id="@+id/stree2"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:contentDescription="Suspense Movie Image"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/stree2"/>
+                    </androidx.cardview.widget.CardView>
+
+                    <!-- Repeat CardView blocks for more images -->
+                </LinearLayout>
+            </HorizontalScrollView>
+
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

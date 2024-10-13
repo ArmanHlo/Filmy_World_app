@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "431623283113",
+    "project_id": "film-be121",
+    "storage_bucket": "film-be121.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:431623283113:android:fafb0aab7cda43bea5a4b8",
+        "android_client_info": {
+          "package_name": "com.example.filmyworld"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD1syLXdwcv3nr8LBWwsdo76xPEfYy97sY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

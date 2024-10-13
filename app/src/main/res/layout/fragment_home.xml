@@ -1,0 +1,391 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeFragment"
+    android:layout_gravity="center"
+    android:background="@color/design_default_color_on_secondary">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintBottom_toTopOf="@+id/bnv">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Headline for New Movies -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/new_movies"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:paddingStart="16dp"
+            android:paddingTop="16dp"
+            android:paddingBottom="8dp"
+            android:textColor="@color/white"/>
+
+        <!-- First Image Set -->
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scrollbars="none">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingStart="16dp"
+                android:paddingEnd="16dp">
+
+                <ImageView
+                    android:layout_width="140dp"
+                    android:id="@+id/kalki"
+                    android:layout_height="210dp"
+                    android:layout_marginEnd="16dp"
+                    android:contentDescription="@string/ff"
+                    app:srcCompat="@drawable/kalki"
+                    android:scaleType="centerCrop" />
+
+                <ImageView
+                    android:id="@+id/arkhdmt"
+                    android:layout_width="140dp"
+                    android:layout_height="210dp"
+                    android:layout_marginEnd="16dp"
+                    android:contentDescription=""
+                    app:srcCompat="@drawable/arkhdmt"
+                    android:scaleType="centerCrop" />
+
+                <ImageView
+                    android:id="@+id/raayan"
+                    android:layout_width="140dp"
+                    android:layout_height="210dp"
+                    android:layout_marginEnd="16dp"
+                    android:contentDescription="ljoj"
+                    app:srcCompat="@drawable/raayan"
+                    android:scaleType="centerCrop" />
+
+                <ImageView
+                    android:id="@id/doublesmart"
+                    android:layout_width="140dp"
+                    android:layout_height="210dp"
+                    android:layout_marginEnd="16dp"
+                    android:contentDescription="ljoj"
+                    app:srcCompat="@drawable/doublesmart"
+                    android:scaleType="centerCrop" />
+                <ImageView
+                    android:id="@+id/bazoka"
+                    android:layout_width="140dp"
+                    android:layout_height="210dp"
+                    android:layout_marginEnd="16dp"
+                    android:contentDescription="ljoj"
+                    app:srcCompat="@drawable/bazoka"
+                    android:scaleType="centerCrop" />
+                <ImageView
+                    android:id="@+id/coolie"
+                    android:layout_width="140dp"
+                    android:layout_height="210dp"
+                    android:layout_marginEnd="16dp"
+                    android:contentDescription="ljoj"
+                    app:srcCompat="@drawable/coolie"
+                    android:scaleType="centerCrop" />
+                <ImageView
+                    android:id="@+id/devra"
+                    android:layout_width="140dp"
+                    android:layout_height="210dp"
+                    android:layout_marginEnd="16dp"
+                    android:contentDescription="ljoj"
+                    app:srcCompat="@drawable/devra"
+                    android:scaleType="centerCrop" />
+
+                <ImageView
+                    android:id="@+id/bb3"
+                    android:layout_width="140dp"
+                    android:layout_height="210dp"
+                    android:layout_marginEnd="16dp"
+                    android:contentDescription="ljoj"
+                    app:srcCompat="@drawable/bb3"
+                    android:scaleType="centerCrop" />
+
+
+
+            </LinearLayout>
+        </HorizontalScrollView>
+
+        <!-- Headline for New Series -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New Series"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:paddingStart="16dp"
+            android:paddingTop="16dp"
+            android:paddingBottom="8dp"
+            android:textColor="@color/white"
+
+
+            />
+
+        <!-- Second Image Set -->
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scrollbars="none">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingStart="16dp"
+                android:paddingEnd="16dp">
+
+                <ImageView
+                    android:id="@+id/shekharh"
+                    android:layout_width="140dp"
+                    android:layout_height="210dp"
+                    android:layout_marginEnd="16dp"
+                    android:contentDescription="kn"
+                    app:srcCompat="@drawable/shekharh"
+                    android:scaleType="centerCrop" />
+
+                <ImageView
+                    android:id="@+id/hodn"
+                    android:layout_width="140dp"
+                    android:layout_height="210dp"
+                    android:layout_marginEnd="16dp"
+                    android:contentDescription="kn"
+                    app:srcCompat="@drawable/hodn"
+                    android:scaleType="centerCrop" />
+
+                <ImageView
+                    android:layout_width="140dp"
+                    android:layout_height="210dp"
+                    android:layout_marginEnd="16dp"
+                    android:contentDescription="jbj"
+                    app:srcCompat="@drawable/gyarah"
+                    android:scaleType="centerCrop" />
+                <ImageView
+                    android:id="@+id/bcop"
+                    android:layout_width="140dp"
+                    android:layout_height="210dp"
+                    android:layout_marginEnd="16dp"
+                    android:contentDescription="kln"
+                    app:srcCompat="@drawable/bcop"
+                    android:scaleType="centerCrop" />
+                <ImageView
+                    android:id="@+id/wcttj"
+                    android:layout_width="140dp"
+                    android:layout_height="210dp"
+                    android:layout_marginEnd="16dp"
+                    android:contentDescription="kln"
+                    app:srcCompat="@drawable/wcttj"
+                    android:scaleType="centerCrop" />
+
+                <ImageView
+                    android:id="@id/kkmein"
+                    android:layout_width="140dp"
+                    android:layout_height="210dp"
+                    android:layout_marginEnd="16dp"
+                    android:contentDescription="kln"
+                    app:srcCompat="@drawable/kkmein"
+                    android:scaleType="centerCrop" />
+
+
+            </LinearLayout>
+        </HorizontalScrollView>
+
+        <!-- Headline for New Trailers -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New Trailers"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:paddingStart="16dp"
+            android:paddingTop="16dp"
+            android:paddingBottom="8dp"
+            android:textColor="@color/white"/>
+
+        <!-- Third Image Set -->
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scrollbars="none">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingStart="16dp"
+                android:paddingEnd="16dp">
+
+                <ImageView
+                    android:id="@+id/doublesmart"
+                    android:layout_width="140dp"
+                    android:layout_height="210dp"
+                    android:layout_marginEnd="16dp"
+                    android:contentDescription="jnbjlb"
+                    app:srcCompat="@drawable/doublesmart"
+                    android:scaleType="centerCrop" />
+
+                <ImageView
+                    android:id="@+id/indian2"
+                    android:layout_width="140dp"
+                    android:layout_height="210dp"
+                    android:layout_marginEnd="16dp"
+                    android:contentDescription="j"
+                    app:srcCompat="@drawable/indian2"
+                    android:scaleType="centerCrop" />
+                <ImageView
+                    android:id="@+id/goat"
+                    android:layout_width="140dp"
+                    android:layout_height="210dp"
+                    android:layout_marginEnd="16dp"
+                    android:contentDescription="j"
+                    app:srcCompat="@drawable/goat"
+                    android:scaleType="centerCrop" />
+                <ImageView
+                    android:id="@+id/kangua"
+                    android:layout_width="140dp"
+                    android:layout_height="210dp"
+                    android:layout_marginEnd="16dp"
+                    android:contentDescription="j"
+                    app:srcCompat="@drawable/kangua"
+                    android:scaleType="centerCrop" />
+                <ImageView
+                    android:id="@+id/max"
+                    android:layout_width="140dp"
+                    android:layout_height="210dp"
+                    android:layout_marginEnd="16dp"
+                    android:contentDescription="j"
+                    app:srcCompat="@drawable/max"
+                    android:scaleType="centerCrop" />
+
+                <ImageView
+                    android:id="@+id/kkmein"
+                    android:layout_width="140dp"
+                    android:layout_height="210dp"
+                    android:layout_marginEnd="16dp"
+                    android:contentDescription="kjbl"
+                    app:srcCompat="@drawable/kkmein"
+                    android:scaleType="centerCrop" />
+
+                <ImageView
+                    android:id="@id/shekharh"
+                    android:layout_width="140dp"
+                    android:layout_height="210dp"
+                    android:layout_marginEnd="16dp"
+                    android:contentDescription="ee"
+                    app:srcCompat="@drawable/shekharh"
+                    android:scaleType="centerCrop" />
+
+            </LinearLayout>
+        </HorizontalScrollView>
+
+        <!-- Headline for Fourth Row -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Top Picks"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:paddingStart="16dp"
+            android:paddingTop="16dp"
+            android:paddingBottom="8dp"/>
+
+        <!-- Fourth Image Set -->
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scrollbars="none">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingStart="16dp"
+                android:paddingEnd="16dp">
+
+                <ImageView
+                    android:id="@+id/stree2"
+                    android:layout_width="140dp"
+                    android:layout_height="210dp"
+                    android:layout_marginEnd="16dp"
+                    android:contentDescription="img1k"
+                    app:srcCompat="@drawable/stree2"
+                    android:scaleType="centerCrop" />
+
+                <ImageView
+                    android:id="@id/devra"
+                    android:layout_width="140dp"
+                    android:layout_height="210dp"
+                    android:layout_marginEnd="16dp"
+                    android:contentDescription="j"
+                    app:srcCompat="@drawable/devra"
+                    android:scaleType="centerCrop" />
+                <ImageView
+
+
+                    android:id="@+id/toxic"
+                    android:layout_width="140dp"
+                    android:layout_height="210dp"
+                    android:layout_marginEnd="16dp"
+                    android:contentDescription="j"
+                    app:srcCompat="@drawable/toxic"
+                    android:scaleType="centerCrop" />
+                <ImageView
+                    android:id="@+id/ujh"
+                    android:layout_width="140dp"
+                    android:layout_height="210dp"
+                    android:layout_marginEnd="16dp"
+                    android:contentDescription="img2j"
+                    app:srcCompat="@drawable/ujh"
+                    android:scaleType="centerCrop" />
+                <ImageView
+                    android:id="@id/coolie"
+
+                    android:layout_width="140dp"
+                    android:layout_height="210dp"
+                    android:layout_marginEnd="16dp"
+                    android:contentDescription="@string/f"
+                    app:srcCompat="@drawable/coolie"
+                    android:scaleType="centerCrop"
+                    tools:ignore="DuplicateIds" />
+
+                <ImageView
+                    android:id="@+id/kalkip"
+                    android:layout_width="140dp"
+                    android:layout_height="210dp"
+                    android:layout_marginEnd="16dp"
+                    android:contentDescription="@string/f"
+                    app:srcCompat="@drawable/kalki"
+                    android:scaleType="centerCrop"
+                    tools:ignore="DuplicateIds" />
+
+
+
+                <ImageView
+                    android:id="@+id/indian2p"
+                    android:layout_width="140dp"
+                    android:layout_height="210dp"
+                    android:layout_marginEnd="16dp"
+                    android:contentDescription="@string/mgd4"
+                    app:srcCompat="@drawable/indian2"
+                    android:scaleType="centerCrop"
+                    tools:ignore="DuplicateIds" />
+
+            </LinearLayout>
+        </HorizontalScrollView>
+
+    </LinearLayout>
+</ScrollView>
+
+    </FrameLayout>

@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Film World</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="bbou">\newew\n\n\n</string>
+    <string name="new_movies">New Movies</string>
+    <string name="mgd4">mgd4</string>
+    <string name="f">f</string>
+    <string name="ff">ff</string>
+
+</resources>
+<!--    <string name="back4app_server_url">https://parseapi.back4app.com</string>-->
+<!--    <string name="back4app_app_id">VwkiAs2ksoL8qegD2i5itdmPPcHYVhsJMRy5zTrV</string>-->
+<!--    <string name="back4app_client_key">zijzjBJwzy2kdP9hHoqUz7D4aLtiagzZBlxdP2V2</string>-->

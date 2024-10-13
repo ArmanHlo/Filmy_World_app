@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Custom Bottom Navigation View Style -->
+    <style name="BottomNavigationViewStyle" parent="Widget.MaterialComponents.BottomNavigationView">
+        <!-- Icon Tint Color for Active and Inactive Items -->
+        <item name="itemIconTint">#881212</item>
+        <!-- Text Appearance for Active and Inactive Items -->
+        <item name="itemTextAppearanceActive">@style/BottomNavigationActiveTextStyle</item>
+        <item name="itemTextAppearanceInactive">@style/BottomNavigationInactiveTextStyle</item>
+        <item name="itemTextColor">@color/white</item> <!-- Text color for both states -->
+    </style>
+
+    <!-- Text Appearance for Active Items -->
+    <style name="BottomNavigationActiveTextStyle" parent="TextAppearance.AppCompat.Medium">
+
+
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:windowSplashScreenIconBackgroundColor" tools:ignore="NewApi">@color/white</item>
+
+    </style>
+
+    <!-- Text Appearance for Inactive Items -->
+    <style name="BottomNavigationInactiveTextStyle" parent="TextAppearance.AppCompat.Medium">
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+</resources>
