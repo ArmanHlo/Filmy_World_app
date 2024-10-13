@@ -4,6 +4,11 @@
   <a href="https://github.com/ArmanHlo/Filmy_World_app/blob/master/p/home.png">
     <img src="https://github.com/ArmanHlo/Filmy_World_app/blob/master/p/home.png" alt="Home" width="200" style="margin:200px 20px 20px 20px;" />
   </a>
+
+
+
+
+  
   <a href="https://github.com/ArmanHlo/Filmy_World_app/blob/master/p/movies.png">
     <img src="https://github.com/ArmanHlo/Filmy_World_app/blob/master/p/movies.png" alt="Movies" width="200" style="margin-left: 200px;" />
   </a>
