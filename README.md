@@ -1,9 +1,5 @@
 # Filmy World
 
-# Filmy World App
-
-# Filmy World App
-
 <p align="center">
   <a href="https://github.com/ArmanHlo/Filmy_World_app/blob/master/p/home.png">
     <img src="https://github.com/ArmanHlo/Filmy_World_app/blob/master/p/home.png" alt="Home" width="200" style="margin: 0 10px;" />
