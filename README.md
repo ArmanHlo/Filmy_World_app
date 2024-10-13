@@ -2,10 +2,6 @@
 
 ## Overview
 
-
-
-## Overview
-
 **Filmy World** is a movie downloading app designed to offer users a sleek interface to browse, stream, and download the latest movies, series, and trailers. Although still a work in progress, the app allows users to explore:
 
 - **Home**: Lists new movies, series, and trailers in a visually rich layout.
